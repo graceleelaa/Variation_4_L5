@@ -1,1 +1,20 @@
-x
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.box {
+  background: #yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box:hover {
+  background: #8DD8F6;
+  border-radius: 50%;
+}
